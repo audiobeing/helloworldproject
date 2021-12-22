@@ -1,1 +1,1 @@
-# helloworldproject
+# the "hello world" project
