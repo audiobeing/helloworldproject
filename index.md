@@ -1,3 +1,6 @@
+---
+title: "Welcome to test blog"
+---
 ## welcome to the "hello world" project
 
 You can use the [editor on GitHub](https://github.com/audiobeing/thehelloworldproject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
