@@ -6,7 +6,7 @@ title: "programming"
 <ul>
   {% for post in site.categories.programming %}
     <li>
-      <a href="/thehelloworldproject{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
     <p>
     {{post.content}}
