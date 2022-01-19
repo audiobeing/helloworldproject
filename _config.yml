@@ -1,10 +1,13 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: the hello world project
+author: Ian Jarvis
+email: lostinthegroove@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+The 'hello world project' is a project for developing an introduction to the 
+foundations of digital media and digital media programming. The goal is to develop 
+and document a learning map for those just starting their journey into the 
+world of digital media and programming such as to provide the resources for the 
+incredible range of topics that I wish I had when I was starting my journey over 20 years ago.
+I hope you find this ongoing guide usefull and please follow me social media and consider donating...
 theme: jekyll-theme-hacker
 # social links
 twitter_username: your-twitter-handle # DO NOT include the @ character, or else the build will fail!
