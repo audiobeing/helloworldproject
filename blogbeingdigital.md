@@ -1,11 +1,10 @@
 ---
 title: "being digital"
-name: beingdigital
 # sidebar: toc
 ---
 
 <ul>
-  {% for post in site.categories.name %}
+  {% for post in site.categories.beingdigital %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
