@@ -4,7 +4,7 @@ title: "being digital"
 ---
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts/beingdigital %}
     <li>
       <a href="/thehelloworldproject{{ post.url }}">{{ post.title }}</a>
     </li>
