@@ -1,5 +1,5 @@
 ---
-title: "blog home page"
+title: "skeuomorph"
 # sidebar: toc
 ---
 

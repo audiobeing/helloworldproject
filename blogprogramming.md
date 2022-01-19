@@ -1,5 +1,5 @@
 ---
-title: "blog home page"
+title: "programming"
 # sidebar: toc
 ---
 
