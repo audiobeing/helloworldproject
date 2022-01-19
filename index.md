@@ -2,7 +2,7 @@
 title: "Welcome to test blog"
 # sidebar: toc
 ---
-## welcome to the "hello world" project   &nbsp;&nbsp;&nbsp;   blogs: [being digital](blog-beingdigital.md) [skeuomorph](blog-skeuomorph.md) [programming](blog-programming.md)
+## welcome to the "hello world" project   &nbsp;&nbsp;&nbsp;   blogs: [being digital](blogbeingdigital.md) [skeuomorph](blogskeuomorph.md) [programming](blogprogramming.md)
 
 You can use the [editor on GitHub](https://github.com/audiobeing/thehelloworldproject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
