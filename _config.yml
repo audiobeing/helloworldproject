@@ -11,5 +11,3 @@ twitter_username: your-twitter-handle # DO NOT include the @ character, or else 
 github_username:  your-github-handle # DO NOT include the @ character, or else the build will fail!
 
 show_excerpts: true # set to false to remove excerpts on the homepage
-
-The 'hello world project' is a project for developing an introduction to the foundations of digital media and digital media programming.
