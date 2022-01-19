@@ -2,12 +2,14 @@ title: the hello world project
 author: ian jarvis
 email: lostinthegroove@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The 'hellow world project is a project for developing and 
+  introduction to the foundations of digital media and 
+  digital media programming. 
 theme: jekyll-theme-hacker
 # social links
 twitter_username: your-twitter-handle # DO NOT include the @ character, or else the build will fail!
 github_username:  your-github-handle # DO NOT include the @ character, or else the build will fail!
 
 show_excerpts: true # set to false to remove excerpts on the homepage
+
+The 'hello world project' is a project for developing an introduction to the foundations of digital media and digital media programming.
