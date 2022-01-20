@@ -322,17 +322,17 @@ a {
     text-decoration: none
 }
 
-#column {
-  /* display: flex; */
-  display: inline-block; 
+.column {
+  display: flex;
+  /* display: inline-block;  */
   /* width: 33%;  */
   /* height: 100%;  */
 
 }
-/* .column > div {
-  /* flex: 1; grow */
-  /* align-self: center; */
-/* } */ 
+.column > div { 
+  flex: 1; grow
+   align-self: center; 
+ } 
 
     </style>
   </head>
@@ -345,7 +345,7 @@ a {
             </nav>
             <h1>{{ page.title }}</h1>
            
-            <div id="column">
+            <div>
             {{ content }}
             </div>
             
