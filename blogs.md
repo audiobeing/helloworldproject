@@ -8,9 +8,9 @@ layout: blogs
         <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
-        <p>
+        <!-- <p>
         {{post.content}}
-        </p>
+        </p> -->
     {% endfor %}
     </ul>
 </div>
