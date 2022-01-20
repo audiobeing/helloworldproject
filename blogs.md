@@ -3,7 +3,7 @@ title: blogs page
 layout: blogs
 ---
 <div id="column">
-    <h1>being digital</h1>
+    <h2>being digital</h2>
     <ul>
     {% for post in site.categories.beingdigital %}
         <li>
@@ -16,7 +16,7 @@ layout: blogs
     </ul>
 </div>
 <div id="column">
-    <h1>skeuomorph</h1>
+    <h2>skeuomorph</h2>
     <ul>
     {% for post in site.categories.skeuomorph %}
         <li>
@@ -29,7 +29,7 @@ layout: blogs
     </ul>
 </div>
 <div id="column">
-    <h1>programming</h1>
+    <h2>programming</h2>
     <ul>
     {% for post in site.categories.programming %}
         <li>
