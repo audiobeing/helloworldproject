@@ -21,7 +21,7 @@ layout: blogs
         <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
         <p>
-        {{post.content}}
+        <!-- {{post.content}} -->
         </p>
     {% endfor %}
     </ul>
@@ -33,7 +33,7 @@ layout: blogs
         <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
         <p>
-        {{post.content}}
+        <!-- {{post.content}} -->
         </p>
     {% endfor %}
     </ul>
