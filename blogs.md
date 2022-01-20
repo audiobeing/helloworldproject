@@ -1,12 +1,40 @@
 ---
-title: programming
+title: blogs page
 layout: blogs
 ---
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="/thehelloworldproject{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<div id="column">
+    <ul>
+    {% for post in site.categories.beingdigital %}
+        <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        <p>
+        {{post.content}}
+        </p>
+    {% endfor %}
+    </ul>
+</div>
+<div id="column">
+    <ul>
+    {% for post in site.categories.skeuomorph %}
+        <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        <p>
+        {{post.content}}
+        </p>
+    {% endfor %}
+    </ul>
+</div>
+<div id="column">
+    <ul>
+    {% for post in site.categories.programming %}
+        <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        <p>
+        {{post.content}}
+        </p>
+    {% endfor %}
+    </ul>
+</div>
