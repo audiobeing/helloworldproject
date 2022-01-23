@@ -1,1 +1,0 @@
-# Creating your first slash command in discord
