@@ -115,49 +115,67 @@ play two subsequences at once by separating with a comma - thus we have two cycl
 - scales chopped up: `arpy`, `latibro`
 - more: `flick sid can metal future gabba sn mouth co gretsch mt arp h cp cr newnotes bass hc tabla bass0 hh bass1 bass2 oc bass3 ho odx diphone2 house off ht tink perc bd industrial pluck trump printshort jazz voodoo birds3 procshort blip drum jvbass psr wobble`
 
+for a list of current (2022-01-20) sample list in estuary go [here](misc/estuarysamplelist.md). most have the number of samples in each `bank`. also check estuary reference for accessing this list from estuary
+
 ## II. **adding effects**
 
 `s "bd sn:2  bd:2 hh*2" # vowel "a"`
 
 `s "bd sn:2  bd:2 hh*2" # vowel "a e i o u"`
-- the pattern comes from the left side
+
+the pattern comes from the left side
 
 `s "bd sn:2  bd:2 hh*2" # pan "0 0.25 0.75 1"`
-- pan is between 0 and 1
+
+pan is between 0 and 1
 
 `s "bd sn:2  bd:2 hh*2" # speed "2 0.25 0.75 1"`
+
 `s "bd sn:2  bd:2 hh*2" # gain "1 0.25 0.75 1"`
 
 
 ## IV. transforming patterns
-- play at the same time
-`s "[bd sn:2, hh*3 hh:3*2]"`
 
-### slow it down
+slow it down
 
 `slow 2 $ s "[bd sn:2, hh*3 hh:3*2]"`
 
-### speed it up
+speed it up
 
 `fast 2 $ s"[bd sn:2, hh hh:2*2]"`
 
-### have it happen every #
+have it happen every # cycles
 
 `every 4 (fast 2) $ s "bd [~ sn]"`
 
 ## VI. longer samples and granulation(ish)
-- some long samples (koy sax ade alex alone bev pad)
 
-### chop
+some long samples (`koy sax ade alex bev pad`)
 
-`s "bev"`
-- when you stop it, it keeps playing through
+`s "bev"` get ready to stop this example as will quickly get over saturated
 
-### chop it into bits:
+notice that when you stop it, it keeps playing - every cycle the sample is triggered so quickly we have many iterations of the sample play ontop of each other
+
+lets slow it down
+
+`slow 8 $ s "bev"`
+
+if you left the `cps` at `0.5` that means that each cycle takes 2 seconds. as the `bev` sample fits nices into into the `slow 8` timeframe we can workout that the sample is roughly 16 seconds long. try changing cps to 1 and check if you need to slow it down to `16` to fit? 
+
+put `!setcps 1` in the estuary terminal to check
+
+make sure to set cps back to `0.5` to keep in time with this tutorial: `!setcps 0.5`
+
+`chop` the sample into equal bits:
 
 `chop 32 $ s "bev"`
 
-### slow it down to fit 8 cycles:
+`chop` divides the sample into `#` equal sections of length and then plays the `#` of sections in the appropriate section of the cycle (in this case play `32` in one cycle)
+
+`chop 8 $ s "future ~ gabba*2 newnotes`
+
+lets return to the `bev` sample (actually the first, 0th sample in the sample `bank` named `bev`) and slow it down to fit 8 cycles:
+
 `loopAt 8 $ chop 128 $ s "bev"`
 
 ### transform the grain pattern:
