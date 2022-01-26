@@ -12,7 +12,7 @@ Estuary is a project that ports tidalCycles to the web (as well as other languag
 
 ## overview
 <details open >
-<summary>''</summary>
+<summary></summary>
 
 1. start/stop making sound
 1. creating patterns/sequences
@@ -25,7 +25,10 @@ Estuary is a project that ports tidalCycles to the web (as well as other languag
 
 ## I. **start/stop sounds and sequences**
 `s "bd cp"`
-- press the play button or press shift+return/enter (depending on mac/pc)
+
+TidalCycles in Atom: `Shift+Enter` for single line, `Ctrl+Enter` for multiple lines. 
+
+Estuary: press the play button or press `Shift+Enter` (Enter or Return)
 
 `-- s "bd cp"`
 - the double dash infront of a line of code 'comments out' the code - then execute (same as above)
@@ -38,7 +41,7 @@ Estuary is a project that ports tidalCycles to the web (as well as other languag
 - each sound takes up and equal space in the cycle
 
 <br/>
-<img src="assets/tidal-cycles.png" alt="drawing" width="70%" />
+<img src="../../assets/tidal-cycles.png" alt="drawing" width="70%" />
 <br/>
 
 ### try adding *\# & /\#
