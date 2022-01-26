@@ -10,6 +10,8 @@
 
 
 ## to do list
+- for the tutorials such as tidalCycles/estuary link to the (not made yet) digital audio, digital music+sound composition (fixed media), digital music+sound performance, and digital system/instrument design - all of which start from the basics of an absolute beginner. 
+
 - the main repository is for the development, version tracking, and making available the current hopefully functional code ==> keep the documentation, tutorials to the pages site
 - basic navigation in the terminal
 - create discord bot
