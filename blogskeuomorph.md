@@ -1,6 +1,7 @@
 ---
 title: "skeuomorph"
-# sidebar: toc
+# sidebar: toc 
+# whats toc
 ---
 
 <ul>
