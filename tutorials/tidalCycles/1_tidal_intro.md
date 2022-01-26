@@ -17,7 +17,7 @@ Estuary is a project that ports tidalCycles to the web (as well as other languag
 1. handling large audio files
 
 
-## I. **start/stop sounds and sequences**
+## 1. **start/stop sounds and sequences**
 `s "bd cp"`
 
 <!-- move to tidal later: TidalCycles in Atom: `Shift+Enter` for single line, `Ctrl+Enter` for multiple lines.  -->
@@ -30,7 +30,12 @@ the double dash infront of a line of code 'comments out' the code - then execute
 
 or we can select all the code, delete it and execute. undo to get the code back. 
 
-adding ~ creates a rest/silence
+### `Syntax`
+- when you see this by your editing window it means there is an error
+
+## 2. **creating patterns/sequences
+
+adding `~` creates a rest/silence
 
 `s "bd ~ bd cp"`
 
@@ -46,19 +51,57 @@ each sound takes up and equal space in the cycle
 <img src="assets/tidal-cycles.png" alt="drawing" width="70%" />
 <br/>
 
-### try adding *\# & /\#
+try adding `*\#` & `/\#`
+
 `s "bd*4"`
+
+the `*` fills the unit/section of the cycle for the related sample (this case `bd`) with `\#` of that sample. 
+
 `s "bd*4 hh*2"`
+
+in this case the `bd` and `hh` split the cycle into two, and the `*\#` fills the section accordingly - in the first half of the cycle there are `4` `bd` samples in the second half there are `2` `hh` samples. 
+
 `s "bd/2 hh*3"`
-### add ?
+
+- the `/\#` is slightly different in that it effects future cycles - in the example above the `bd` sample will skip every second cycle, thus if it was 3 is would play once every three cycles (on the first cycle of every three), and so on ...
+
+add `?` for some randomness
+
 `s "hh*16?"`
-- ?: 50/50 chance each of the 16 will occur in this situation
-### `Syntax`
-- when you see this by your editing window it means there is an error
-### choose a sample from the sound `bank` using :\#
+
+`?`: 50/50 chance each of the 16 sections of the cycle will occur - the unit that is to the left of the `?`
+
+choose a sample from the sound `bank` using `:\#`
+
 `s "bd:2 bd:1 hh:0 bd sn bd:3 hh:2 hh:2"`
+
+thus far we have been refering to the name written as the sample (`bd`,`hh`,`sn`, ...). this actually refers to the first sample in the sound `bank` named `bd` and so in. a `bank` is a folder that holds one or more samples 
+
+fit a subsequence into a step/section with square brackets:
+
+`s "bd [bd cp] bd bd"`
+
+notice how the square brakets demark the section of the cycle for which the `bd` & `cp` then fill that section equally
+
+`s "[bd bd sn:5] [bd sn:3]"`
+
+you can nest subsequences
+
+`s "[[bd bd] bd sn:5] [bd sn:3]"`
+
+and so on ...
+
+`s "[[bd [bd bd bd bd]] bd sn:5] [bd sn:3]"`
+
+
+play two subsequences at once by separating with a comma - thus we have two cycles of sequences playing at the at the same time
+
+`s "[voodoo voodoo:3, arpy arpy:4 arpy:2]"`
+
 ### we can change the cps (cycles per second) or bpm (beats per minute) in the estuary console
+
 `!setcps 0.5` 
+
 - this is the default: one cycle = 2 seconds
 
 `!setbmp 60` 
@@ -85,26 +128,6 @@ each sound takes up and equal space in the cycle
 `s "bd sn:2  bd:2 hh*2" # speed "2 0.25 0.75 1"`
 `s "bd sn:2  bd:2 hh*2" # gain "1 0.25 0.75 1"`
 
-## III. patterns/sequences and subsequences
-### Fit a subsequence into a step with square brackets:
-
-`s "bd [bd cp] bd bd"`
-
-### This can make for flexible time signatures:
-
-`s "[bd bd sn:5] [bd sn:3]"`
-
-### You can put subsequences inside subsequences:
-`s "[[bd bd] bd sn:5] [bd sn:3]"`
-
-### Keep going..
-`s "[[bd [bd bd bd bd]] bd sn:5] [bd sn:3]"`
-
-### Polymetric / polyrhythmic sequences
-
-### Play two subsequences at once by separating with a comma:
-
-`s "[voodoo voodoo:3, arpy arpy:4 arpy:2]"`
 
 ## IV. transforming patterns
 - play at the same time
