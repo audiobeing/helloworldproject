@@ -37,7 +37,7 @@ Estuary: press the play button or press `Shift+Enter` (Enter or Return)
 - each sound takes up and equal space in the cycle
 
 <br/>
-<img src="../../assets/tidal-cycles.png" alt="drawing" width="70%" />
+<img src="assets/tidal-cycles.png" alt="drawing" width="70%" />
 <br/>
 
 ### try adding *\# & /\#
