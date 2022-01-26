@@ -33,7 +33,7 @@ or we can select all the code, delete it and execute. undo to get the code back.
 ### `Syntax`
 - when you see this by your editing window it means there is an error
 
-## 2. **creating patterns/sequences
+## 2. **creating patterns/sequences**
 
 adding `~` creates a rest/silence
 
@@ -51,19 +51,19 @@ each sound takes up and equal space in the cycle
 <img src="assets/tidal-cycles.png" alt="drawing" width="70%" />
 <br/>
 
-try adding `*\#` & `/\#`
+try adding `*#` & `/#`
 
 `s "bd*4"`
 
-the `*` fills the unit/section of the cycle for the related sample (this case `bd`) with `\#` of that sample. 
+the `*` fills the unit/section of the cycle for the related sample (this case `bd`) with `#` of that sample. 
 
 `s "bd*4 hh*2"`
 
-in this case the `bd` and `hh` split the cycle into two, and the `*\#` fills the section accordingly - in the first half of the cycle there are `4` `bd` samples in the second half there are `2` `hh` samples. 
+in this case the `bd` and `hh` split the cycle into two, and the `*#` fills the section accordingly - in the first half of the cycle there are `4` `bd` samples in the second half there are `2` `hh` samples. 
 
 `s "bd/2 hh*3"`
 
-- the `/\#` is slightly different in that it effects future cycles - in the example above the `bd` sample will skip every second cycle, thus if it was 3 is would play once every three cycles (on the first cycle of every three), and so on ...
+- the `/#` is slightly different in that it effects future cycles - in the example above the `bd` sample will skip every second cycle, thus if it was 3 is would play once every three cycles (on the first cycle of every three), and so on ...
 
 add `?` for some randomness
 
@@ -71,7 +71,7 @@ add `?` for some randomness
 
 `?`: 50/50 chance each of the 16 sections of the cycle will occur - the unit that is to the left of the `?`
 
-choose a sample from the sound `bank` using `:\#`
+choose a sample from the sound `bank` using `:#`
 
 `s "bd:2 bd:1 hh:0 bd sn bd:3 hh:2 hh:2"`
 
@@ -130,6 +130,7 @@ the pattern comes from the left side
 pan is between 0 and 1
 
 `s "bd sn:2  bd:2 hh*2" # speed "2 0.25 0.75 1"`
+
 
 `s "bd sn:2  bd:2 hh*2" # gain "1 0.25 0.75 1"`
 
