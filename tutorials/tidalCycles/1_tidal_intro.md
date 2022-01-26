@@ -1,18 +1,16 @@
 # estuary/tidalCycles
 ## intro
-<details open >
-<summary></summary>
+
 Tidal is a domain-specific programming language (DSL) for creating music that focuses on the creation and manipulation of patterns. 
 
 Estuary is a project that ports tidalCycles to the web (as well as other languages)
 
 - it is smaller than tidalCycles
 - aims for easy collaboration and setup (see more about estuary on estuary.mcmaster.ca)
-</details>
+
 
 ## overview
-<details open >
-<summary></summary>
+
 
 1. start/stop making sound
 1. creating patterns/sequences
@@ -20,8 +18,6 @@ Estuary is a project that ports tidalCycles to the web (as well as other languag
 1. transforming patterns
 1. handling large audio files
 
-
-</details>
 
 ## I. **start/stop sounds and sequences**
 `s "bd cp"`
