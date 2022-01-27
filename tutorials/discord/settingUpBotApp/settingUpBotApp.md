@@ -2,8 +2,18 @@
 1. sign in the the [discord website](https://discord.com/) 
 <img src="images/1.signin.png" alt="drawing" width="70%" />
 <br/>
-- go to the developers portal and then click the applications tab
-- give name and hit create
+1. go to the developers portal at the bottom of the page
+<img src="images/2.devPortal.png" alt="drawing" width="70%" />
+<br/>
+1. and then click the applications tab
+<img src="images/3.chooseApp.png" alt="drawing" width="70%" />
+<br/>
+1. choose new application
+<img src="images/4.chooseNewAPp.png" alt="drawing" width="70%" />
+<br/>
+1. give your bot application a name and hit create
+<img src="images/2.devPortal.png" alt="drawing" width="70%" />
+<br/>
 - go to the bot tab and hit add bot
 - make sure public bot is turned on so others can see it
 - make sure REQUIRES OAUTH2 CODE GRANT is not checked unless you know you need it - if you don't know - start with it off!!
