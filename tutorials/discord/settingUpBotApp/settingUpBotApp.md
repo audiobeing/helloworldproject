@@ -1,21 +1,41 @@
 # setting up your first bot application
+
 1. sign in the the [discord website](https://discord.com/) 
 <img src="images/1.signin.png" alt="drawing" width="70%" />
 <br/>
-1. go to the developers portal at the bottom of the page
+<br/>
+
+1. go to the `developers` portal at the bottom of the page
 <img src="images/2.devPortal.png" alt="drawing" width="70%" />
 <br/>
-1. and then click the applications tab
+<br/>
+
+1. and then click the `applications` tab
 <img src="images/3.chooseApp.png" alt="drawing" width="70%" />
 <br/>
+<br/>
+
 1. choose new application
 <img src="images/4.chooseNewAPp.png" alt="drawing" width="70%" />
 <br/>
-1. give your bot application a name and hit create
-<img src="images/2.devPortal.png" alt="drawing" width="70%" />
 <br/>
-- go to the bot tab and hit add bot
-- make sure public bot is turned on so others can see it
+
+1. give your bot application a name and hit `create`
+<img src="images/5.nameBot.png" alt="drawing" width="70%" />
+<br/>
+<br/>
+
+1. go to the `bot` tab, hit `add bot`, and click `yes,do it!`
+<img src="images/6.goToBotTab.png" alt="drawing" width="70%" />
+<img src="images/7.addBot.png" alt="drawing" width="70%" />
+<img src="images/7a.clickYes.png" alt="drawing" width="70%" />
+<br/>
+<br/>
+
+1. make sure public bot is turned on so others can see it
+<img src="images/8..png" alt="drawing" width="70%" />
+<br/>
+<br/>
 - make sure REQUIRES OAUTH2 CODE GRANT is not checked unless you know you need it - if you don't know - start with it off!!
 - notice the copy token - and the warning -- KEEP THIS TOKEN PRIVATE - we will handle this in the upcoming section - let's finish by adding our bot to a server. 
     - copy the token 
