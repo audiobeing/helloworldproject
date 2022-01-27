@@ -2,7 +2,8 @@
 title: "the 'hello world' project home page"
 # sidebar: toc
 ---
-## [blogs:](blogs.md) [being digital](blogbeingdigital.md) [skeuomorph](blogskeuomorph.md) [programming](blogprogramming.md)
+
+<!-- ## [blogs:](blogs.md) [being digital](blogbeingdigital.md) [skeuomorph](blogskeuomorph.md) [programming](blogprogramming.md)
 ## tutorial: [discord slash commands-ping](https://github.com/audiobeing/thehelloworldproject/blob/main/discord-ping.md) [tidal](tutorials/tidalCycles/1_tidal_intro.md)
 You can use the [editor on GitHub](https://github.com/audiobeing/thehelloworldproject/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -46,4 +47,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
       <a href="/thehelloworldproject{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-</ul>
+</ul> -->
