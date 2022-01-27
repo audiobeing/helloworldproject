@@ -1,14 +1,15 @@
 # setting up your first bot application
-- sign in the the discord website 
+1. sign in the the [discord website](https://discord.com/) 
+<img src="images/1.signin.png" alt="drawing" width="70%" />
+<br/>
 - go to the developers portal and then click the applications tab
 - give name and hit create
 - go to the bot tab and hit add bot
 - make sure public bot is turned on so others can see it
 - make sure REQUIRES OAUTH2 CODE GRANT is not checked unless you know you need it - if you don't know - start with it off!!
-- notice the 
+- notice the copy token - and the warning -- KEEP THIS TOKEN PRIVATE - we will handle this in the upcoming section - let's finish by adding our bot to a server. 
     - copy the token 
         - create a config.json file or .env file to and save the token there - if that is unfamiliar save the token in a new file or you can come back and copy it again
-- WARNING RE THE TOKEN AS THIS MUST REMAIN PRIVATE
 
 - ADDING THE BOT TO A SERVER
 - you will need to be part of a server/guild with "Administrative" or “Manage Server” permissions. If you created the server you have Admin permissions. 
