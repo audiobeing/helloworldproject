@@ -29,7 +29,7 @@ layout: blogs
     </ul>
 </div>
 <div >
-    <h2>programming</h2>
+    <h2>L_ab_o</h2>
     <ul>
     {% for post in site.categories.programming %}
         <li>
