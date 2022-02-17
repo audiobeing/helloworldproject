@@ -3,14 +3,14 @@ author: ian jarvis
 email: lostinthegroove@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 
-# theme: minima
+theme: minima
 header_pages: ['']
-plugins:
-  - jekyll-remote-theme
+# plugins:
+#   - jekyll-remote-theme
 atom_feed:
   hide: true
 classes: wide
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
 minima:
   # skin: dark
   social_links:   
