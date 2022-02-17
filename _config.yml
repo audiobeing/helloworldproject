@@ -4,7 +4,10 @@ email: lostinthegroove@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 
 # theme: minima
-header_pages: ['']
+# header_pages: ['']
+header_pages:
+  - about.md
+  # - portfolio.md
 plugins:
   - jekyll-remote-theme
 atom_feed:
