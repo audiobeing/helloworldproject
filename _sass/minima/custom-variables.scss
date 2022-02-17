@@ -5,6 +5,7 @@ $content-width:  65%;
 $on-palm: 100% !default; 
 $on-small: 100% !default ;
 $on-medium: 100% !default ; 
+$spacing-unit: 0; 
 @include media-query($on-palm) {
     .wrapper {
       padding-right: $spacing-unit / 10;
