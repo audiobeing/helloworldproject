@@ -1,13 +1,14 @@
 ---
 title: blogs page
-layout: blogs
+# layout: blogs
 ---
-<div>
+<div style = "flex= 1 grow;
+   align-self= center; ">
     <h2>being digital</h2>
     <ul>
     {% for post in site.categories.beingdigital %}
         <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
         </li>
         <!-- <p>
         {{post.content}}
