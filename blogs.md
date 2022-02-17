@@ -1,6 +1,6 @@
 ---
-title: blogs page
-# layout: blogs
+title: blogs
+layout: blogs
 layout: page
 ---
 <div style = "flex= 1 grow;
