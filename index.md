@@ -1,5 +1,5 @@
 ---
-title: "the 'hello world' project home page"
+title: "the 'hello world' project"
 # sidebar: toc
 ---
 

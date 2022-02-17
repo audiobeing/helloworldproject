@@ -1,6 +1,7 @@
 ---
 title: blogs page
 # layout: blogs
+layout: page
 ---
 <div style = "flex= 1 grow;
    align-self= center; ">
