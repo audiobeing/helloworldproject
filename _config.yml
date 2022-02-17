@@ -17,4 +17,4 @@ minima:
     twitter: L_ab_o # DO NOT include the @ character, or else the build will fail!
     github_username:  audiobeing # DO NOT include the @ character, or else the build will fail!
 
-show_excerpts: true # set to false to remove excerpts on the homepage
+show_excerpts: false # set to false to remove excerpts on the homepage
