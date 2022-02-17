@@ -10,7 +10,7 @@ plugins:
 atom_feed:
   hide: true
 classes: wide
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:   
