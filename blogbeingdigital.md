@@ -6,7 +6,7 @@ title: "being digital"
 <ul>
   {% for post in site.categories.beingdigital %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
     </li>
     <p>
     {{post.content}}

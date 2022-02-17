@@ -7,7 +7,7 @@ title: "skeuomorph"
 <ul>
   {% for post in site.categories.skeuomorph %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
     </li>
     <p>
     {{post.content}}
