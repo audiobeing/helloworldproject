@@ -4,9 +4,9 @@
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
       {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}" style="margin-left:2%">home</a> 
+      <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}" style="margin-left:2%">home</a> 
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">blogs</a>
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">tutorial</a>
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">tutorial</a> -->
       <!-- {{ site.title | escape }} -->
         {%- include social.html -%}
       
