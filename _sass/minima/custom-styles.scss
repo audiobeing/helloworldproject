@@ -1,9 +1,0 @@
-$content-width:  55%; 
-$on-palm:  100%; 
-$on-small:  100%; 
-@include media-query($on-palm) {
-  .wrapper {
-    padding-right: $spacing-unit / 10;
-    padding-left: $spacing-unit / 2;
-  }
-}
