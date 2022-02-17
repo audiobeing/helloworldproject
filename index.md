@@ -2,8 +2,12 @@
 title: "the 'hello world' project home page"
 # sidebar: toc
 ---
+
+
 ## [blogs:](blogs.md) [being digital](blogbeingdigital.md) [skeuomorph](blogskeuomorph.md) [programming](blogprogramming.md)
-## tutorial: [discord slash commands-ping](https://github.com/audiobeing/thehelloworldproject/blob/main/discord-ping.md) [tidal](tutorials/tidalCycles/1_tidal_intro.md)
+## tutorial: [discord slash commands-ping](tutorials/discord/.md) [tidal](tutorials/tidalCycles/1_tidal_intro.md)
+
+
 <img src="assets/helloworldProject.gif" alt="drawing" width="100%" />
 <br/>
 <br/>
