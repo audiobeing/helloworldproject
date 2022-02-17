@@ -1,0 +1,13 @@
+$link-base-color: #8d5eb3; 
+// $text-color: #8548b8; 
+
+$content-width:  75%; 
+$on-palm: 100% !default; 
+$on-small: 100% !default ;
+$on-medium: 100% !default ; 
+@include media-query($on-palm) {
+    .wrapper {
+      padding-right: $spacing-unit / 10;
+      padding-left: $spacing-unit / 2;
+    }
+  }
