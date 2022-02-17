@@ -12,7 +12,7 @@ atom_feed:
 classes: wide
 remote_theme: jekyll/minima
 minima:
-  # skin: dark
+  skin: dark
   social_links:   
     twitter: L_ab_o # DO NOT include the @ character, or else the build will fail!
     github_username:  audiobeing # DO NOT include the @ character, or else the build will fail!
