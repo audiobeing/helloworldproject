@@ -6,6 +6,8 @@ description: > # this means to ignore newlines until "baseurl:"
   an introduction to the foundations of digital media and 
   digital media programming such as to provide resources for the incredible range of topics that I wish I had when I was starting my journey over 20 years ago.
 theme: minima
+minima:
+  skin: dark
 # social links
 twitter_username: ABaudiobeing # DO NOT include the @ character, or else the build will fail!
 github_username:  audiobeing # DO NOT include the @ character, or else the build will fail!
