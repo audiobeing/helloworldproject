@@ -2,9 +2,7 @@ title: the "hello world" project
 author: ian jarvis
 email: lostinthegroove@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  # The "hello world" project is a project for developing and documenting 
-  # an introduction to the foundations of digital media and 
-  # digital media programming such as to provide resources for the incredible range of topics that I wish I had when I was starting my journey over 20 years ago.
+
 # theme: minima
 header_pages: ['']
 plugins:
