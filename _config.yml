@@ -9,6 +9,7 @@ plugins:
   - jekyll-remote-theme
 atom_feed:
   hide: true
+classes: wide
 remote_theme: jekyll/minima
 minima:
   skin: dark
