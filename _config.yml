@@ -12,7 +12,7 @@ plugins:
 
 remote_theme: jekyll/minima
 minima:
-  skin: solarized-dark
+  skin: dark
   social links:   
     twitter: L_ab_o # DO NOT include the @ character, or else the build will fail!
     github_username:  audiobeing # DO NOT include the @ character, or else the build will fail!
